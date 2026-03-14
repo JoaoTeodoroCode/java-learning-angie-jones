@@ -1,27 +1,28 @@
 # 🚀 Java for Test Automation - Learning Journey
 
-Este repositório foi criado para documentar a minha evolução no curso de **Java** da **Angie Jones** na **Test Automation University (TAU)**. O objetivo é construir uma base sólida de programação especificamente aplicada à automação de testes.
+Este repositório documenta a minha evolução no curso de **Java** da **Angie Jones** na **Test Automation University (TAU)**. O foco é construir uma base sólida de programação para automação de testes profissional.
 
 ## 📌 Sobre o Projeto
-Este projeto faz parte da trilha de aprendizagem da TAU. O foco não é apenas aprender a sintaxe do Java, mas entender a lógica de programação, Clean Code e como estruturar algoritmos que servem de base para scripts de teste robustos.
+Este projeto reflete a minha trilha de aprendizagem. Mais do que sintaxe, o objetivo é dominar a **Programação Orientada a Objetos (POO)** e estruturar código escalável e de fácil manutenção para automação.
 
 ## 🗂️ Estrutura de Estudos
 
-- [x] **Capítulo 2: Fundamentos** - Variáveis, tipos de dados e operadores.
-- [x] **Capítulo 3: Estruturas de Decisão** - Uso de `if`, `else` e `switch` para controle de fluxo.
-- [x] **Capítulo 4: Estruturas de Repetição** - Loops (`while`, `do-while`, `for`) para automação de tarefas repetitivas.
-- [x] **Capítulo 5: Métodos e Escopo** - Modularização de código e passagem de parâmetros.
+- [x] **Capítulo 2 a 4: Fundamentos** - Variáveis, Estruturas de Decisão (`if/else`) e Repetição (`loops`).
+- [x] **Capítulo 5: Métodos** - Modularização e reutilização de código.
+- [x] **Capítulo 6: Classes e Objetos** - Introdução à POO, Encapsulamento e Construtores.
 
 ---
 
-## 🏆 Destaque: Phone Bill Calculator (Capítulo 5)
-Este foi um exercício chave onde apliquei conceitos de estruturação de algoritmos e métodos.
+## 🏆 Destaque: Phone Bill System (Capítulo 6 - POO Evolution)
+Este exercício marcou a transição de uma lógica procedural para a **Orientação a Objetos**. O código foi refatorado para que a fatura seja um objeto inteligente que "conhece" os seus próprios dados.
 
-### O que foi aplicado:
-* **Modularidade:** Divisão do problema em métodos independentes (`calculateTax`, `calculateOverages`, etc).
-* **Tratamento de Dados:** Uso de `Scanner` para inputs do utilizador.
-* **Formatação de Moeda:** Utilização de `String.format("%.2f", ...)` para garantir um output profissional com 2 casas decimais.
-* **Lógica de Negócio:** Cálculo encadeado de taxas e custos excedentes.
+
+
+### Conceitos de Engenharia Aplicados:
+* **Encapsulamento Real:** Uso de fields `private` para proteger os dados sensíveis da fatura, garantindo que o estado do objeto só seja alterado de forma controlada.
+* **Sobrecarga de Construtores (Overloading):** Implementação de múltiplos construtores (vazio e completo) para dar flexibilidade à criação de novos objetos.
+* **Comportamento Baseado em Atributos:** Os métodos de cálculo deixaram de receber parâmetros externos. Agora, eles utilizam os **atributos (fields)** da própria classe (como `this.usedMinutes`) para realizar as operações.
+* **Getters & Setters:** Controlo rigoroso sobre a leitura e escrita das propriedades do objeto, seguindo as melhores práticas de Java.
 
 ---
 
@@ -31,9 +32,9 @@ Este foi um exercício chave onde apliquei conceitos de estruturação de algori
 * **Versionamento:** Git & GitHub
 
 ## 📈 Próximos Passos
-- [ ] Programação Orientada a Objetos (Capítulos 6 a 10)
-- [ ] Estruturas de Dados e Coleções (Capítulo 11)
-- [ ] Conclusão dos restantes capítulos da Certificação Java TAU
+- [ ] **Capítulo 7: Arrays & Collections** - Gestão de conjuntos de dados e loops avançados (For-each).
+- [ ] Herança e Polimorfismo (Capítulos 8 a 10).
+- [ ] Exceções e Tratamento de Erros.
 
 ---
-✨ *Focado em transformar lógica em automação de qualidade!*
+✨ *Transformando lógica de objetos em automação de alta performance!*
