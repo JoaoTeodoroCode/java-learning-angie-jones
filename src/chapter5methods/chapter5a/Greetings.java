@@ -12,16 +12,17 @@ ESTRUTURA:("acess modifier" "non acess modifier" "return type" "method signature
   * access modifier - indica quem pode acessar e usar o metodo!!
     * "public" - significa que qualquer codigo em qualquer classe do programa pode usar o metodo criado
     * "private" - significa que o metodo so pode ser usado na classe em que foi escrito/criado
-    * "proteted" - O metodo é visível dentro do mesmo package e por subclasses (mesmo que estejam
-noutros pacotes)
+    * "protected" - O metodo é visível  e pode ser usado dentro do mesmo package e tambem por
+    subclasses (mesmo que estejam noutros pacotes)
 
   * non acess modifier -
     * "static" - O metodo pertence à Classe e não ao objeto.
     * "final" - O metodo não pode ser alterado (sobrescrito) pelas classes que herdarem dele.
-    * "abstract" - O metodo não tem "corpo" { }. Ele apenas define que o metodo deve existir,obrigando a
-quem herda a escrever a lógica.
+    * "abstract" - O metodo não tem "corpo" { }. Ele apenas define que o metodo deve existir,obrigando a TODA A classe
+que herda esse metodo a escrever a lógica/codigo do metodo.
     * "synchronized" - Usado em multi-threading; garante que apenas uma "pessoa" (thread) use o metodo
 por vez.
+    * "default" - Usado em interfaces, indicando que o metodo tem um implementação pronta(codigo escrito) dentro da interface.
 
   * return type (OBRIGATORIO INDICAR) - indica o "data type" do valor final que o metodo irá retornar(quando
 tiver escrito "void" significa que o metodo nao ira retornar nenhum valor)
